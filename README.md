@@ -48,7 +48,7 @@ var a = new threedslide({
 })
 ```
 **参数配置项**
-
+![image](https://github.com/Jon-Millent/threedslide.js/blob/master/images/box.png?raw=true)
 ```javascript
 {
 	width : 800, //子元素的宽度
@@ -76,4 +76,4 @@ var a = new threedslide({
 	}
 }
 ```
-[img](https://github.com/Jon-Millent/threedslide.js/blob/master/images/box.png?raw=true)
+

@@ -76,4 +76,4 @@ var a = new threedslide({
 	}
 }
 ```
-[image](https://github.com/Jon-Millent/threedslide.js/blob/master/images/box.png?raw=true)
+[img](https://github.com/Jon-Millent/threedslide.js/blob/master/images/box.png?raw=true)

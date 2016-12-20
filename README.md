@@ -79,16 +79,22 @@ var a = threedslide({
 **方法**
 ### `next(void)`
 ```javascript
-var a = threedslide();
+var a = threedslide({
+	element : box
+});
 a.next() //下一页
 ```
 ### `prev(void)`
 ```javascript
-var a = threedslide();
+var a = threedslide({
+	element : box
+});
 a.prev() //上一页
 ```
 ### `moveTo(int number)`
 ```javascript
-var a = threedslide();
+var a = threedslide({
+	element : box
+});
 a.moveTo(3) //转向第三页
 ```

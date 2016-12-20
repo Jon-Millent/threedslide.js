@@ -65,14 +65,15 @@ var a = new threedslide({
 	prev : function(){ //当上一个的时候执行参数[index|elements]
 
 	},
-	firstChange : function(){ //当第一屏变化的时候
+	firstChange : function(){ //当第一屏变化的时候 参数[elements]
 
 	},
-	secondChange : function(){ //当第二屏变化的时候
+	secondChange : function(){ //当第二屏变化的时候 参数[elements]
 
 	},
-	lastChange : function(){ //当第三屏变化的时候
+	lastChange : function(){ //当第三屏变化的时候 参数[elements]
 
 	}
 }
 ```
+[image](https://github.com/Jon-Millent/threedslide.js/blob/master/images/box.png?raw=true)

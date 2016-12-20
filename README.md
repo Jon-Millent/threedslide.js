@@ -41,7 +41,7 @@ li{
 ```
 ## javascript使用
 **通过下面的代码执行插件，配置项后面会详细说明**
-```
+```javascript
 var box = document.getElementById('box');
 var a = threedslide({
 	element : box

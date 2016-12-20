@@ -98,3 +98,6 @@ var a = threedslide({
 });
 a.moveTo(3) //转向第三页
 ```
+# By jon-millent
+# mit
+# 2016-12-20

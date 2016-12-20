@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		html,body,ul,li{
+			padding: 0;
+			margin: 0;
+		}
+		li{
+			list-style: none;
+		}
+		#box{
+			width: 1000px;
+			height: 500px;
+			margin: 20px auto;
+		}
+		#box img{
+			width: 100%;
+			height: 100%;
+		}
+		#box li{
+			transition: all 1s ease;
+		}
+	</style>
+</head>
+<body>
+	<ul id="box">
+		<li class="threedslide"><a href="https://www.baidu.com"><img src="images/1.jpg"></a></li>
+		<li class="threedslide"><a href="https://www.baidu.com"><img src="images/2.jpg"></a></li>
+		<li class="threedslide"><a href="https://www.baidu.com"><img src="images/3.jpg"></a></li>
+		<li class="threedslide"><a href="https://www.baidu.com"><img src="images/4.jpg"></a></li>
+		<li class="threedslide"><a href="https://www.baidu.com"><img src="images/5.jpg"></a></li>
+	</ul>
+	<button id="next">next</button>
+	<button id="prev">prev</button>
+	<input type="text" name="" id="gg"><button id="move">Move</button>
+</body>
+<script type="text/javascript" src="./js/threedslide.js"></script>
+<script type="text/javascript">
+	window.onload=function(){
+		var box = document.getElementById('box');
+		var a = new threedslide({
+			element : box,
+			autoplay : false,
+			next : function(a,b){
+				
+			},
+			prev : function(a,b){
+				
+			},
+			firstChange : function(a){
+				a.style.opacity = 1;
+			},
+			secondChange : function(a){
+				a.style.opacity = 0.5;
+			},
+			lastChange : function(a){
+				a.style.opacity = 0.5;
+			}
+		})
+		var next = document.getElementById('next');
+		var prev = document.getElementById('prev');
+		var move = document.getElementById('move');
+		var gg = document.getElementById('gg');
+		next.onclick=function(){
+			a.next();
+		}
+		prev.onclick=function(){
+			a.prev();
+		}
+		move.onclick=function(){
+			a.moveTo(parseInt(gg.value))
+		}
+
+	}
+</script>
+</html>

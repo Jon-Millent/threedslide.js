@@ -43,7 +43,7 @@ li{
 **通过下面的代码执行插件，配置项后面会详细说明**
 ```
 var box = document.getElementById('box');
-var a = new threedslide({
+var a = threedslide({
 	element : box
 })
 ```
@@ -76,4 +76,19 @@ var a = new threedslide({
 	}
 }
 ```
-
+**方法**
+### `next(void)`
+```javascript
+var a = threedslide();
+a.next() //下一页
+```
+### `prev(void)`
+```javascript
+var a = threedslide();
+a.prev() //上一页
+```
+### `moveTo(int number)`
+```javascript
+var a = threedslide();
+a.moveTo(3) //转向第三页
+```
